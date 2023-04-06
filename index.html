@@ -1,69 +1,103 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe - my CV</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-      #name {
-        font-size: 2em;
-      }
-      #photo {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        object-fit: cover;
-      }
-      #bio {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 600px;
-        text-align: center;
-      }
-      #cv-btn {
-        display: block;
-        margin: 20px auto;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        background-color: #333;
-        color: #fff;
-        text-decoration: none;
-        font-weight: bold;
-        transition: all 0.2s ease-in-out;
-      }
-      #cv-btn:hover {
-        background-color: #fff;
-        color: #333;
-        cursor: pointer;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <div id="name">John Doe</div>
-      <div>
-        <img id="photo" src="https://www.example.com/my-photo.jpg" alt="John Doe's photo">
-      </div>
-    </header>
-    <div id="bio">
-      <p>I am a PhD student studying economics. My research interests include...</p>
-      <a id="cv-btn" href="https://www.example.com/my-cv.pdf" target="_blank">View my CV</a>
-    </div>
-  </body>
+<head>
+	<title>Professional Profile</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		.upper {
+			height: 5%;
+			background-color: #1E90FF;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0 20px;
+		}
+		.upper img {
+			height: 80%;
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+		.upper h1, .upper p {
+			margin: 0;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			font-size: 20px;
+		}
+		.middle {
+			height: 85%;
+			background-color: #f5f5f5;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			padding: 20px;
+		}
+		.middle img {
+			height: 150px;
+			border-radius: 50%;
+			margin-bottom: 20px;
+		}
+		.middle h2, .middle p {
+			margin: 0;
+			color: #333;
+			font-family: Arial, sans-serif;
+		}
+		.bottom {
+			height: 10%;
+			background-color: #1E90FF;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 20px;
+		}
+		.bottom p {
+			margin: 0;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 20px;
+		}
+		.bottom a {
+			color: #fff;
+			text-decoration: none;
+			margin: 0 10px;
+			font-size: 20px;
+		}
+		.line {
+			height: 1px;
+			background-color: #ccc;
+			margin: 10px 0;
+			width: 80%;
+		}
+	</style>
+</head>
+<body>
+	<div class="upper">
+		<img src="your-logo.png" alt="Your Logo">
+		<div>
+			<h1>Your Name</h1>
+			<p>Economics PhD Student</p>
+		</div>
+		<div>
+			<a href="#cv">CV</a>
+			<a href="#contact">Contact</a>
+		</div>
+	</div>
+	<div class="middle">
+		<img src="your-photo.jpg" alt="Your Photo">
+		<h2>Your Name</h2>
+		<p>Short Bio Here</p>
+	</div>
+	<div class="line"></div>
+	<div class="bottom">
+		<p>Your Phone Number</p>
+		<a href="mailto:your-email@example.com">your-email@example.com</a>
+		<a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank"><i class="fa fa-linkedin"></i></a>
+		<a href="https://twitter.com/your-twitter-profile/" target="_blank"><i class="fa fa-twitter"></i></a>
+	</div>
+</body>
 </html>

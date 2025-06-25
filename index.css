@@ -33,7 +33,7 @@
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 104px;
+  min-height: 105px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -47,7 +47,7 @@
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 104px;
+  min-height: 105px;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -55,20 +55,6 @@
 }
 
 .u-section-1 .u-text-3 {
-  margin-bottom: 0;
-  margin-top: 0;
-  font-size: 1.125rem;
-}
-
-.u-section-1 .u-layout-cell-3 {
-  min-height: 104px;
-}
-
-.u-section-1 .u-container-layout-3 {
-  padding: 30px;
-}
-
-.u-section-1 .u-text-4 {
   margin-bottom: 0;
   margin-top: 0;
   font-size: 1.125rem;
@@ -80,15 +66,15 @@
   height: 28px;
 }
 
-.u-section-1 .u-layout-cell-4 {
-  min-height: 81px;
+.u-section-1 .u-layout-cell-3 {
+  min-height: 105px;
 }
 
-.u-section-1 .u-container-layout-4 {
+.u-section-1 .u-container-layout-3 {
   padding: 30px;
 }
 
-.u-section-1 .u-text-5 {
+.u-section-1 .u-text-4 {
   margin-bottom: 0;
   margin-top: 0;
   font-size: 0.75rem;
@@ -120,19 +106,15 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 86px;
+    min-height: 87px;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 86px;
+    min-height: 87px;
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 86px;
-  }
-
-  .u-section-1 .u-layout-cell-4 {
-    min-height: 67px;
+    min-height: 87px;
   }
 }
 
@@ -166,10 +148,6 @@
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 100px;
-  }
-
-  .u-section-1 .u-layout-cell-4 {
     min-height: 100px;
   }
 }
@@ -208,7 +186,7 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 92px;
+    min-height: 93px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -217,19 +195,10 @@
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 93px;
-  }
-
-  .u-section-1 .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-layout-cell-4 {
     min-height: 90px;
   }
 
-  .u-section-1 .u-container-layout-4 {
+  .u-section-1 .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0;
@@ -263,7 +232,7 @@
     margin-bottom: 4px;
   }
 
-  .u-section-1 .u-layout-cell-2 {
+  .u-section-1 .u-layout-cell-1 {
     min-height: 54px;
   }
 }

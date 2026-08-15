@@ -1,0 +1,7 @@
+Add your files to this folder.
+
+Recommended filenames:
+- Sergii_Drobot_CV.pdf
+- news-sentiment-inflation-expectations.pdf
+- incentivizing-inflation-expectations.pdf
+- choosing-digital-currency-design.pdf
